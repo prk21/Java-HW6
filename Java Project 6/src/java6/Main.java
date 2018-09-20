@@ -23,7 +23,7 @@ public class Main {
 	 NSMutablearray[2].setNumberOfShares(210);
 	 NSMutablearray[2].setPurchaseSharePrice(45.10f);
 	 int n=3;//for 3 instances
-	 //Bubble Sort
+	 //Implementing  Bubble Sort
 	 for(int i=0;i<n;i++)
 	 {
 		 for(int j=0;j<n-1;j++)
