@@ -3,8 +3,10 @@ package java6;
 public class Main {
 	public static void main(String[] args)
 	{
+		//Making an array of instances of the class StockHolding
 	 StockHolding NSMutablearray[]= new StockHolding[10];
 	 
+	 //Assigning values manually
 	 NSMutablearray[0]=new StockHolding();
 	 NSMutablearray[0].setCompanyName("Dell");
 	 NSMutablearray[0].setCurrentSharePrice(4.50f); //to convert double to float attach an f at the end!! 
@@ -55,16 +57,18 @@ public class Main {
 	
 
 	 //Checkpoint 2
+	 
 	 //Extended Classes to be used
 	 System.out.println("Checkpoint 2: ");
 
+	 //Assigning values using Constructors
 	 NSMutablearray[3]=new ForeignStockHolding(25.20f,89.51f,580,"Jaypee",1.2f);
 	 
 	 NSMutablearray[4]=new ForeignStockHolding(85.20f,23.54f,158,"Hero",2.01f);
 		 
 	 
 	 
-	  n=5;//for 3 instances
+	  n=5;//for 5 instances
 	 //Implementing  Bubble Sort
 	 for(int i=0;i<n;i++)
 	 {
@@ -93,6 +97,9 @@ public class Main {
 	 }
 	 
 	}
+	
+	 
+
 	 
 
 

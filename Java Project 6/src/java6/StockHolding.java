@@ -7,6 +7,7 @@ float currentSharePrice=0;
  String companyName="";
 StockHolding()
 {
+	//Default constructor
  purchaseSharePrice=0;
  currentSharePrice=0;
  numberOfShares=0 ;
@@ -15,6 +16,7 @@ StockHolding()
 }
 StockHolding(float psc,float csp,int nos,String cn)
 {
+	//Parameterized Constructor
  purchaseSharePrice=psc;
  currentSharePrice=csp;
  numberOfShares=nos ;
