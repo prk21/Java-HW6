@@ -1,16 +1,24 @@
 package java6;
 
 public class StockHolding {
-private float purchaseSharePrice=0;
-private float currentSharePrice=0;
-private int numberOfShares=0 ;
-private String companyName="";
+ float purchaseSharePrice=0;
+float currentSharePrice=0;
+ int numberOfShares=0 ;
+ String companyName="";
 StockHolding()
 {
-float purchaseSharePrice=0;
- float currentSharePrice=0;
-	int numberOfShares=0 ;
-	 String companyName="";
+ purchaseSharePrice=0;
+ currentSharePrice=0;
+ numberOfShares=0 ;
+ companyName="";
+	
+}
+StockHolding(float psc,float csp,int nos,String cn)
+{
+ purchaseSharePrice=psc;
+ currentSharePrice=csp;
+ numberOfShares=nos ;
+ companyName=cn;
 	
 }
 public float getPurchaseSharePrice() {
